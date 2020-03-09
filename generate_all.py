@@ -1,4 +1,4 @@
-
+# coding: utf-8
 
 from horoscope import generate_prophecies
 from datetime import datetime as dt
@@ -11,6 +11,7 @@ def generate_page(head, body):
 
 def generate_head(title):
     head = f"""<head>
+     <meta charset='utf-8'>
     <title>{title}</title>
     </head>
     """
