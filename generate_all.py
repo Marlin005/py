@@ -11,9 +11,12 @@ def generate_page(head, body):
 
 def generate_head(title):
     head = f"""<head>
-     <meta charset='windows-1252'>
+    <meta charset='windows-1251'>
     <title>{title}</title>
+
     </head>
+     <a href="about.html">О реализации</a>
+            &nbsp;
     """
     return head
 
