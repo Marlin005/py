@@ -1,4 +1,4 @@
-
+# coding: utf-8
 
 from horoscope import generate_prophecies
 from datetime import datetime as dt
